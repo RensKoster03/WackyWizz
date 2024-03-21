@@ -35,7 +35,7 @@ div div{
     color: azure;
     align-items: center;
     justify-content: center;
-    right: 42em
+    right: 39.5em
 }
 
 #lives .heart.dead{
@@ -84,6 +84,6 @@ h1{
 }
 .buttonplace2{
     position: absolute;
-    bottom: 10px;
+    bottom: 1px;
     right: 900px;
 }
