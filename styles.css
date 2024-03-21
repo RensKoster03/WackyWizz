@@ -73,14 +73,17 @@ h1{
     padding-right: 2em;
     border-radius: 1em;
     color: azure;
-    margin-left: 3em;
-    text-decoration: none;
-    margin-top: 35em;  
+    text-decoration: none; 
+    position: absolute;
+    bottom: 10px;
 }
 .buttonplace{
-    margin-top: 35em;  
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
 }
 .buttonplace2{
-    margin-top: 40em;
-    margin-left: 27em;
+    position: absolute;
+    bottom: 50px;
+    right: 900px;
 }
