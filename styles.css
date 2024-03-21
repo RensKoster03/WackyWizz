@@ -1,0 +1,82 @@
+body{
+    background-image: url(assets/wackywizard_bg.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#beginachtergrond{
+    background-image: url(assets/beginscherm.png);
+}
+#gameoverscreen{
+    background-image: url(assets/gameoverscreen.png);
+}
+#winscreen{
+    background-image: url(assets/winnerscreen.png);
+}
+
+#opener{
+    background-image: url(assets/openerscreen.png);
+}
+
+.heart{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+div div p{
+    font-size: xx-large;
+}
+div div{
+    padding: 10px;
+    background-image: url(assets/buttontexture.png);
+    border-radius: 2em;
+    transform: translate(30em, 40em);
+    display: flex;
+    color: azure;
+}
+
+#lives .heart.dead{
+    opacity: 0.5;
+}
+
+#goblin{
+    height: 300px;
+    width: 300px;
+    position: fixed;
+}
+
+#scoreboard{
+    display: flex;
+    gap: 10px;
+}
+
+h1{
+    color: whitesmoke;
+}
+#logo{
+    width: 700px;
+    padding-top: 0;
+}
+#wizardlaugh{
+    height: 350px;
+    padding-left: 30em;
+    
+}
+.button{
+    font-size: xxx-large;
+    background-image: url(assets/buttontexture.png);
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 1em;
+    color: azure;
+    margin-left: 3em;
+    text-decoration: none;
+    margin-top: 35em;  
+}
+.buttonplace{
+    margin-top: 35em;  
+}
+.buttonplace2{
+    margin-top: 40em;
+    margin-left: 27em;
+}
