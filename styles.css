@@ -29,9 +29,13 @@ div div{
     padding: 10px;
     background-image: url(assets/buttontexture.png);
     border-radius: 2em;
-    transform: translate(30em, 40em);
+    position: absolute;
+    bottom: 10px;
     display: flex;
     color: azure;
+    align-items: center;
+    justify-content: center;
+    right: 39em
 }
 
 #lives .heart.dead{
