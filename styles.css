@@ -22,20 +22,30 @@ body{
     padding-top: 10px;
 }
 
-div div p{
-    font-size: xx-large;
+.wizard{
+    position: absolute;
+    bottom: 190px;
+    width: 250px;
+    right: 610px;
 }
-div div{
+
+#scoreboard p{
+    font-size: xx-large;
+    color: azure;
+    margin-top: 17px;
+}
+#timerlook{
     padding: 10px;
+    font-size: xx-large;
     background-image: url(assets/buttontexture.png);
-    border-radius: 2em;
+    border-radius: 1em;
     position: absolute;
     bottom: 10px;
     display: flex;
     color: azure;
     align-items: center;
     justify-content: center;
-    right: 640px;
+    right: 630px;
 }
 
 #lives .heart.dead{
